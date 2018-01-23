@@ -10,6 +10,15 @@ ages_stockes_dans_un_hash = {
   'Alice' => 28
 }
 
+puts ages_stockes_dans_un_hash['Bob']
+
+ages_stockes_dans_un_hash = {
+  Bob: 27,
+  Alice: 28
+}
+
+puts ages_stockes_dans_un_hash[:Bob]
+
 personnes_stockees_dans_un_hash = {
 	'Bob' => {
 		'age' => 27,
