@@ -14,10 +14,12 @@ end
 puts "Hi world \n" *10
 
 
-for i in 0...10
+for i in 0..10
 	puts "Hello"
 end
 
-t = (1..10)
+t = (1..10) #range
 t.each do |h|
-	puts "Hallo" end
+	puts "Hallo" 
+end
+
